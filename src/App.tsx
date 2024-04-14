@@ -11,7 +11,7 @@ const App = () => {
       id: new Date().toString(),
       title: "Meetings",
       text: "code typescript for 5 hours",
-      color: "adfadf",
+      color: "#adfadf",
       date: new Date().toString(),
     },
   ]);
@@ -21,7 +21,7 @@ const App = () => {
       <Container className="mt-5">
         <Row>
           <Col>
-            <NotesList notes={notes} />
+            <NotesList notes={notes} setNotes={setNotes} />
           </Col>
         </Row>
       </Container>
