@@ -17,7 +17,7 @@ const App = () => {
     },
   ]);
   return (
-    <>
+    <div className="main">
       <Header />
       <Container className="mt-5">
         <Row>
@@ -31,7 +31,7 @@ const App = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </div>
   );
 };
 
